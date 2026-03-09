@@ -7,9 +7,9 @@ PgTgBridge is available on [KD4Z.com](https://kd4z.com)
 
 ## Plugin projects
 
-Reference implementations for developing third-party plugins for the PgTgBridge amplifier/tuner service. Each project demonstrates a complete, working plugin using the MyModel/Internal architecture pattern.
+Reference implementations for developing third-party plugins for the PgTgBridge amplifier/tuner service. Each project demonstrates a complete plugin template using the MyModel/Internal architecture pattern.  Use these projects as a reference when creating PgTg plugins for other brands of amplifiers and tuners.
 
-[PgTgSamplePlugins](https://github.com/KD4Z/PgTgSamplePlugins)
+[View PgTgSamplePlugins on GitHub](https://github.com/KD4Z/PgTgSamplePlugins)
 
 ### SampleAmp — Amplifier-Only Plugin
 [View on GitHub](https://github.com/KD4Z/PgTgSamplePlugins?tab=readme-ov-file#sampleamp--amplifier-only-plugin)
