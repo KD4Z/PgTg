@@ -25,7 +25,7 @@ Reference implementations for developing third-party plugins for the PgTgBridge 
 
 PgTgBridge includes a plugin for controlling GPIO on a Raspberry Pi via TCP.  Configurable trigger events are wired into the PgTgBridge logic for PTT, Amplifier operate/standby status, and Tuner enable/bypass. These events are mapped to generic output channels and are sent to the defined IP/port of the service running on the Raspberry Pi. 
 
-These services implement a timer watchdog feature that acts as a safety mechanism.  When a channel mapped to PTT in PgTgBridge, the value of "15" is sent every ten seconds. If the network connection drops, the amplifer will return to Receive mode when the timeout expires.
+These services implement a timer watchdog feature that acts as a safety mechanism.  When a channel mapped to PTT in PgTgBridge, the value of "15" is sent every ten seconds. If the network connection drops, the amplifier will return to Receive mode when the timeout expires.
 
 You may find using these services handy for other remote controlling applications. They accept a simple JSON string for commands making it easily accessible for control from Node-Red.
 
