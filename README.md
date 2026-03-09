@@ -40,8 +40,12 @@ TCP/JSON GPIO relay control service targeting Raspberry Pi 4 (Debian Trixie, lib
 [View on GitHub](https://github.com/KD4Z/PgTgPiGpio)
 
 ### PgTgPiSequent — I2C Relay Control Service
-TCP/JSON I2C relay control service targeting Raspberry Pi 4 (Debian Trixie) with a Sequent Microsystems 16-relay HAT, Sequent Microsystems 8-relay HAT, or Sequent Microsystems 4-relay HAT. Board type is selected via the board config key; a single binary supports all three. Specifically for use with PgTgBridge built-in plugin PgTg PiGpio. Can be used as a smart wrapper to the relay board that is accessible using JSON strings such as from Node-Red.
+TCP/JSON I2C relay control service targeting Raspberry Pi 4 (Debian Trixie) for relay hats from Sequent Microsystems.
 
-Sequent offers a 16 relay hat with solid state relays and is highly recommended for fast, low latency and silent CW keying.
+Supports 4-relay HAT, 8-relay HAT, or 16-relay HAT. All three board types are supported. Configure the desired board in the config file.
+
+Although specifically designed for use with PgTgBridge PgTgGpio built-in plugin, this service can be used as a smart wrapper to these relay boards making them easily accessible from Node-Red.
+
+Sequent offers a version of the 16 relay hat with solid state relays and is highly recommended for fast, low latency and silent CW keying of the KPA500. 
 
 [View on GitHub](https://github.com/KD4Z/PgTgPiSequent)
