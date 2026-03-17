@@ -54,11 +54,11 @@ Sequent offers a version of the 16 relay hat with solid state relays and is high
 
 If you are setting up ser2net on your Pi following the PgTgBridge  Installation Guide, here is a direct link to the ser2net.yaml file mentioned in that guide.
 
-[Download ser2net.yaml from GitHub](https://github.com/KD4Z/PgTg/ser2net.yaml)
+[Download ser2net.yaml from GitHub](https://github.com/KD4Z/PgTg/blob/main/ser2net.yaml)
 
 Or download directly to your Pi:
 ``` bash
-wget https//github.com/KD4Z/PgTg/raw/branch/main/ser2net.yaml
+wget https//github.com/KD4Z/PgTg/blob/main/ser2net.yaml
 ```
 then copy it to /etc
 ```bash
