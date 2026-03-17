@@ -1,0 +1,22 @@
+%YAML 1.1
+---
+default:
+  name: local
+  value: true
+  class: serialdev
+
+connection: &con6001
+  accepter: tcp,0.0.0.0,6001
+  enable: on
+  connector: serialdev,/dev/ttyKPA500,38400n81,local
+  timeout: 600
+  options:
+    max-connections: 3
+
+connection: &con6002
+  accepter: tcp,0.0.0.0,6002
+  enable: on
+  connector: serialdev,/dev/ttyKAT500,38400n81,local
+  timeout: 600
+  options:
+    max-connections: 3
