@@ -31,7 +31,7 @@ You may find using these services handy for other remote controlling application
 
 These projects are ready-to-use services that support commands from PgTg.  Goto Releases to find the download link for the deb file, or compile it yourself.
 
-These are useful to key the PTT line of the Elecraft KPA500 from a relay hat on a Raspberry Pi. 
+These are useful to key the PTT line of the Elecraft&trade; KPA500 from a relay hat on a Raspberry Pi. 
 
 
 ### PgTgPiGpio Service for PgTgBridge
@@ -49,3 +49,7 @@ Although specifically designed for use with PgTgBridge PgTgGpio built-in plugin,
 Sequent offers a version of the 16 relay hat with solid state relays and is highly recommended for fast, low latency and silent CW keying of the KPA500. 
 
 [View on GitHub](https://github.com/KD4Z/PgTgPiSequent)
+
+If you are setting up ser2net on your Pi following the PgTgBridge  Installation Guide, here is a direct link to the ser2net.yaml file mentioned in that guide.
+
+[Download ser2net.yaml from GitHub](https://github.com/KD4Z/PgTg/sser2net.yaml)
