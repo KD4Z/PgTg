@@ -9,6 +9,8 @@ PgTgBridge is available on [KD4Z.com](https://kd4z.com)
 
 Reference implementations for developing third-party plugins for the PgTgBridge amplifier/tuner service. Each project demonstrates a complete plugin template using the MyModel/Internal architecture pattern.  Use these projects as a reference when creating PgTg plugins for other brands of amplifiers and tuners.
 
+[View Plugin Programmers Reference](https://github.com/KD4Z/PgTgSamplePlugins/blob/main/Documentation/PgTgBridge-Plugin-Programmers-Reference.md)
+
 [View PgTgSamplePlugins on GitHub](https://github.com/KD4Z/PgTgSamplePlugins)
 
 ### SampleAmp — Amplifier-Only Plugin
@@ -20,6 +22,11 @@ Reference implementations for developing third-party plugins for the PgTgBridge 
 ### SampleAmpTuner — Combined Amplifier+Tuner Plugin
 [View on GitHub](https://github.com/KD4Z/PgTgSamplePlugins#sampleamptuner--combined-amplifiertuner-plugin)
 
+## Websocket API
+
+PgTgController communicates with the PgTgBridge Windows Service using a websocket.  There are multiple endpoints for metering telemetry, for Service Start/Stop commands and Device Control.  Build your own User Interface or create a slick flow in Node-Red.
+
+[View WebSocket API Reference](https://github.com/KD4Z/PgTgSamplePlugins/blob/main/Documentation/WebSocket-API-Reference.md)
 
 ## Raspberry Pi services for use with the GPIO plugin in PgTgBridge
 
